@@ -1,8 +1,26 @@
 aid: peopleone-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peopleone-health.png
 name: PeopleOne Health
-description: 'PeopleOne Health is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'PeopleOne Health is a nationwide provider of value-based, employer-funded advanced
+  primary care, delivering comprehensive physical and mental health services with no copays,
+  deductibles, or coinsurance for members. Its model pairs dedicated care teams with a
+  prevention-first approach to lower total cost of care for self-funded employers while
+  improving member health outcomes, and it was named a 2024 Best Nationwide Primary Care
+  Provider by the Validation Institute. Surfaced as a portfolio company of GV, PeopleOne
+  Health operates as a healthcare services provider rather than an API platform: member
+  access is delivered through a healow-based patient portal and a member portal, and no
+  public developer API, OpenAPI specification, or developer documentation is published.'
 url: https://raw.githubusercontent.com/api-evangelist/peopleone-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Primary Care
+- Value-Based Care
+- Employer Benefits
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: peopleonehealth.com
+  url: https://peopleonehealth.com
+- type: Blog
+  url: https://peopleonehealth.com/blog/advanced-primary-care-employers/
+- type: Support
+  url: https://peopleonehealth.com/contact-us/
+- type: PrivacyPolicy
+  url: https://peopleonehealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://peopleonehealth.com/terms-of-use/
+- type: Login
+  url: https://portal.peopleonehealth.com/Account/Login
+- type: DomainSecurity
+  url: security/peopleone-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
